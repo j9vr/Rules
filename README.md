@@ -3,51 +3,106 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rainbow Background</title>
+<title>DXRP Roleplay</title>
 
 <style>
-body {
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: Arial, sans-serif;
     color: white;
-
-    background: linear-gradient(
-        -45deg,
-        #ff0000,
-        #ff7300,
-        #fffb00,
-        #48ff00,
-        #00ffd5,
-        #002bff,
-        #7a00ff,
-        #ff00c8
-    );
-    background-size: 400% 400%;
-    animation: rainbow 8s linear infinite;
+    background: radial-gradient(circle at top, #1e1e1e, #0a0a0a 70%);
 }
 
-@keyframes rainbow {
-    0% { background-position: 0% 50%; }
-    100% { background-position: 400% 50%; }
+.header {
+    background: rgba(20, 20, 20, 0.95);
+    border-bottom: 3px solid #55ff55;
+    padding: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    box-shadow: 0 0 15px rgba(85, 255, 85, 0.3);
 }
 
-h1 {
-    font-size: 4rem;
-    text-shadow: 0 0 20px rgba(255,255,255,0.8);
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.card {
+    background: #151515;
+    border: 1px solid #2a2a2a;
+    border-left: 4px solid #55ff55;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    color: #55ff55;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #cccccc;
+    line-height: 1.6;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    border-top: 1px solid #222;
+    margin-top: 40px;
 }
 </style>
 </head>
 <body>
 
-<h1>DXRP</h1>
+<div class="header">
+    DXRP ROLEPLAY
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Welcome</h2>
+        <p>
+            Welcome to DXRP Roleplay. Enjoy immersive roleplay,
+            custom systems, active staff, and a growing community.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>About Us</h2>
+        <p>
+            DXRP is a community-driven roleplay server focused on
+            realistic experiences, quality roleplay, and fun gameplay.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>Server Information</h2>
+        <p>
+            Stay tuned for updates, events, announcements,
+            and new features coming soon.
+        </p>
+    </div>
+
+</div>
+
+<div class="footer">
+    © 2026 DXRP Roleplay. All Rights Reserved.
+</div>
 
 </body>
 </html>
-</style>
 
 [Website Rules](<https://becreativerp.figma.site/rules>)
 
