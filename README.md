@@ -3,103 +3,28 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DXRP Roleplay</title>
+<title>DXRP</title>
 
 <style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    min-height: 100vh;
+    margin: 0;
+    background: #0a0a0a;
+    height: 100vh;
     font-family: Arial, sans-serif;
-    color: white;
-    background: radial-gradient(circle at top, #1e1e1e, #0a0a0a 70%);
-}
-
-.header {
-    background: rgba(20, 20, 20, 0.95);
-    border-bottom: 3px solid #55ff55;
-    padding: 20px;
     text-align: center;
-    font-size: 32px;
-    font-weight: bold;
-    box-shadow: 0 0 15px rgba(85, 255, 85, 0.3);
 }
 
-.container {
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 20px;
-}
-
-.card {
-    background: #151515;
-    border: 1px solid #2a2a2a;
-    border-left: 4px solid #55ff55;
-    border-radius: 8px;
-    padding: 25px;
-    margin-bottom: 20px;
-}
-
-.card h2 {
+h1 {
     color: #55ff55;
-    margin-bottom: 10px;
-}
-
-.card p {
-    color: #cccccc;
-    line-height: 1.6;
-}
-
-.footer {
-    text-align: center;
-    padding: 20px;
-    color: #777;
-    border-top: 1px solid #222;
-    margin-top: 40px;
+    font-size: 64px;
+    text-shadow: 0 0 10px rgba(85,255,85,0.5);
+    padding-top: 60px; /* Change this number */
 }
 </style>
 </head>
 <body>
 
-<div class="header">
-    DXRP ROLEPLAY
-</div>
-
-<div class="container">
-
-    <div class="card">
-        <h2>Welcome</h2>
-        <p>
-            Welcome to DXRP Roleplay. Enjoy immersive roleplay,
-            custom systems, active staff, and a growing community.
-        </p>
-    </div>
-
-    <div class="card">
-        <h2>About Us</h2>
-        <p>
-            DXRP is a community-driven roleplay server focused on
-            realistic experiences, quality roleplay, and fun gameplay.
-        </p>
-    </div>
-
-    <div class="card">
-        <h2>Server Information</h2>
-        <p>
-            Stay tuned for updates, events, announcements,
-            and new features coming soon.
-        </p>
-    </div>
-
-</div>
-
-<div class="footer">
-    © 2026 DXRP Roleplay. All Rights Reserved.
-</div>
+<h1>DXRP</h1>
 
 </body>
 </html>
