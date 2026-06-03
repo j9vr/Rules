@@ -1,10 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rainbow Background</title>
+
 <style>
 body {
-    background-color: black;
-    color: white; /* Makes text readable */
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: Arial, sans-serif;
+    color: white;
+
+    background: linear-gradient(
+        -45deg,
+        #ff0000,
+        #ff7300,
+        #fffb00,
+        #48ff00,
+        #00ffd5,
+        #002bff,
+        #7a00ff,
+        #ff00c8
+    );
+    background-size: 400% 400%;
+    animation: rainbow 8s linear infinite;
 }
+
+@keyframes rainbow {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 400% 50%; }
+}
+
+h1 {
+    font-size: 4rem;
+    text-shadow: 0 0 20px rgba(255,255,255,0.8);
+}
+</style>
+</head>
+<body>
+
+<h1>DXRP</h1>
+
+</body>
+</html>
 </style>
 [Website Rules](<https://becreativerp.figma.site/rules>)
 
