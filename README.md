@@ -1,11 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DXRP</title>
+
 <style>
-body {
-    background-color: black;
-    color: white; /* Makes text readable */
+html, body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+body {
+    background-color: #070707;
+
+    /* Stronger visible tiles */
+    background-image:
+        linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px),
+        linear-gradient(#111 1px, transparent 1px),
+        linear-gradient(90deg, #111 1px, transparent 1px);
+
+    background-size: 
+        25px 25px,
+        25px 25px,
+        50px 50px,
+        50px 50px;
+
+    background-position:
+        0 0,
+        0 0,
+        0 0,
+        0 0;
+
+    overflow: hidden;
+}
+
+/* Green glow */
+body::before {
+    content: "";
+    position: fixed;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 900px;
+    height: 500px;
+    background: rgba(85, 255, 85, 0.10);
+    filter: blur(140px);
+    pointer-events: none;
+}
+
+/* Dark vignette for depth */
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    box-shadow: inset 0 0 200px rgba(0,0,0,0.85);
+    pointer-events: none;
 }
 </style>
+</head>
+<body>
+
+</body>
+</html>
 
 [Website Rules](<https://becreativerp.figma.site/rules>)
 
