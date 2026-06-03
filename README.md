@@ -8,32 +8,21 @@
 <style>
 html, body {
     margin: 0;
-    height: 100%;
+    min-height: 100%;
 }
 
 body {
     background-color: #070707;
 
-    /* Stronger visible tiles */
+    /* Cleaner visible tiles */
     background-image:
-        linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px),
-        linear-gradient(#111 1px, transparent 1px),
-        linear-gradient(90deg, #111 1px, transparent 1px);
+        linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+    background-size: 30px 30px;
 
-    background-size: 
-        25px 25px,
-        25px 25px,
-        50px 50px,
-        50px 50px;
-
-    background-position:
-        0 0,
-        0 0,
-        0 0,
-        0 0;
-
-    overflow: hidden;
+    overflow-x: hidden;
+    color: #eaeaea;
+    font-family: Arial, sans-serif;
 }
 
 /* Green glow */
@@ -43,24 +32,49 @@ body::before {
     top: -200px;
     left: 50%;
     transform: translateX(-50%);
-    width: 900px;
-    height: 500px;
+    width: 800px;
+    height: 400px;
     background: rgba(85, 255, 85, 0.10);
     filter: blur(140px);
     pointer-events: none;
 }
 
-/* Dark vignette for depth */
+/* Vignette */
 body::after {
     content: "";
     position: fixed;
     inset: 0;
-    box-shadow: inset 0 0 200px rgba(0,0,0,0.85);
+    box-shadow: inset 0 0 180px rgba(0,0,0,0.85);
     pointer-events: none;
+}
+
+/* Text readability */
+.content {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #55ff55;
+    text-shadow: 0 0 10px rgba(85,255,85,0.4);
+}
+
+p {
+    color: #cccccc;
+    line-height: 1.6;
 }
 </style>
 </head>
 <body>
+
+<div class="content">
+    <h1>DXRP</h1>
+    <p>Welcome to your server website. This is now readable and scrollable.</p>
+    <p>Add more content here and the page will scroll normally.</p>
+    <p>Lorem ipsum example text to show scrolling...</p>
+    <p style="margin-bottom:1000px;">More space for testing scroll</p>
+</div>
 
 </body>
 </html>
