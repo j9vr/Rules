@@ -138,5 +138,5 @@ Staff decisions are final. If you believe you were unfairly punished, you may ap
 
 *Rules are subject to change. Last updated: May 21, 2026.*
 
-### Website: https://becreativerp.figma.site
-### Discord: https://discord.gg/c2Uw9fxgdt 
+### Website: [Website to donate] (<https://becreativerp.figma.site>) 
+### Discord: [Join the fun] (<https://discord.gg/c2Uw9fxgdt>) 
