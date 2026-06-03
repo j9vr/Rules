@@ -48,6 +48,7 @@ h1 {
 </body>
 </html>
 </style>
+
 [Website Rules](<https://becreativerp.figma.site/rules>)
 
 # Server Rules
