@@ -1,33 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DXRP</title>
-
 <style>
 body {
+    background-color: black;
+    color: white; /* Makes text readable */
     margin: 0;
-    background: #0a0a0a;
-    height: 100vh;
     font-family: Arial, sans-serif;
-    text-align: center;
-}
-
-h1 {
-    color: #55ff55;
-    font-size: 64px;
-    text-shadow: 0 0 10px rgba(85,255,85,0.5);
-    padding-top: 60px; /* Change this number */
 }
 </style>
-</head>
-<body>
-
-<h1>DXRP</h1>
-
-</body>
-</html>
 
 [Website Rules](<https://becreativerp.figma.site/rules>)
 
