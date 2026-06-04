@@ -7,12 +7,12 @@ body {
 }
 </style>
 
-[Website Rules](<https://becreativerp.figma.site/rules>)
+[Website](<https://becreativerp.figma.site/>)
 
 # Server Rules
 
 
-[Public Link](<https://dxrp.net/embed/ruleset/019e3b90-3df0-7e8a-8a76-1269285a580a>)
+[Gray Background](<https://dxrp.net/embed/ruleset/019e3b90-3df0-7e8a-8a76-1269285a580a>)
 
 Please read and follow these rules to ensure a positive experience for everyone.
 
