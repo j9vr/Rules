@@ -7,12 +7,10 @@ body {
 }
 </style>
 
-[Website](<https://becreativerp.figma.site/>)
 
 # Server Rules
 
 
-[Gray Background](<https://dxrp.net/embed/ruleset/019e3b90-3df0-7e8a-8a76-1269285a580a>)
 
 Please read and follow these rules to ensure a positive experience for everyone.
 
@@ -140,6 +138,11 @@ Staff decisions are final. If you believe you were unfairly punished, you may ap
 *Rules are subject to change. Last updated: May 21, 2026.*
 
 ### Website: 
-[Website to donate](<https://becreativerp.figma.site>) 
+[Website To Donate](<https://becreativerp.figma.site>) 
 ### Discord: 
-[Join the fun](<https://discord.gg/c2Uw9fxgdt>) 
+[Join The Fun](<https://discord.gg/c2Uw9fxgdt>) 
+
+### Server rules BackGround Change
+[Gray Background](<https://dxrp.net/embed/ruleset/019e3b90-3df0-7e8a-8a76-1269285a580a>)
+### Server Rules From The Website
+[Website Rules](<https://becreativerp.figma.site/rules>)
