@@ -147,5 +147,5 @@ Staff decisions are final. If you believe you were unfairly punished, you may ap
 ### Server Rules From The Website
 [Website Rules](<https://becreativerp.figma.site/rules>)
 
-## Discord updates
+### Discord updates
 [Discord Updates To See More Updates](<https://discord.com/channels/1505915650424705164/1506181757018312724>)
