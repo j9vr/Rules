@@ -146,3 +146,6 @@ Staff decisions are final. If you believe you were unfairly punished, you may ap
 [Gray Background](<https://dxrp.net/embed/ruleset/019e3b90-3df0-7e8a-8a76-1269285a580a>)
 ### Server Rules From The Website
 [Website Rules](<https://becreativerp.figma.site/rules>)
+
+## Discord updates
+[Discord Updates To See More Updates](<https://discord.com/channels/1505915650424705164/1506181757018312724>)
